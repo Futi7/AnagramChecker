@@ -11,7 +11,7 @@ class AnagramChecker:
 
 
 if __name__ == "__main__":
-    first_string = input("Enter first string")
-    second_string = input("Enter second string")
+    first_string = input("Enter first string:\n")
+    second_string = input("Enter second string:\n")
     anagramChecker = AnagramChecker(first_string, second_string)
-    print("First:"+anagramChecker.first_string+ "\n Second:"+anagramChecker.second_string)
+    print("First:"+anagramChecker.first_string+ "\nSecond:"+anagramChecker.second_string)
